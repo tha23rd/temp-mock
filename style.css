@@ -1,0 +1,71 @@
+body, html {
+    background-color: #2C2F33;
+    height: 100%;
+}
+
+.symbol {
+    color: #72767D;
+    font-size: 30px;
+    vertical-align: bottom;
+    line-height: 28px;
+    margin-right: 6px;
+}
+
+.section_ {
+    margin-left: 38px;
+    margin-right: 38px;
+    padding-top: 32px;
+}
+
+.value-text {
+    font-size: 24px;
+    color: #B9BBBE;
+    vertical-align: bottom;
+    line-height: 28px;
+}
+
+.key-text {
+    font-size: 24px;
+    color: #72767D;
+    line-height: 28px;
+    margin-right: 6px;
+}
+
+.time-text {
+    font-size: 36px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.flex-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.action-button {
+    margin: 0 32px;
+}
+
+.action-button-icon {
+    min-height: 128px;
+    min-width: 128px;
+}
+
+.ion-icon {
+    height: 128px;
+    width: 128px;
+    color: #B9BBBE;
+}
+
+.avatar-clock-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
